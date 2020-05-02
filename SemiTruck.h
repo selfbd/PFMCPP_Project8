@@ -9,6 +9,6 @@ struct SemiTruck : public Vehicle
     SemiTruck(const SemiTruck&);
     SemiTruck& operator=(const SemiTruck&);
         
-    void tryToEvade() override;
-    //void setSpeed(int s) override;
+    void pullOver();
+    void pingCBRadio();
 };
